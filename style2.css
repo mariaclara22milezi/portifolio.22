@@ -1,0 +1,126 @@
+/***********index2***************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monteserrat;sans-serif";
+}
+body{
+    width: 100%;
+    height: 100vh;/*altura da janela de visualizaçao*/
+    background-color: #333;/*cor de fundo*/
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    background-color: #222;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: line-through;
+    color: #fff;
+}
+footer{
+    background-color: #222; /*cordefundo*/
+    padding: 16px;/*espaço interno*/
+    display: flex;/* como um elemento deve ser exibido na página.*/
+    align-items: center;/*como os itens dentro do contêiner flexível são alinhados em relação à altura do contêiner.*/
+    justify-content: center;
+}
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/*cada um para um lado */
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    width: 75%;
+    font-size: 1.2em;/*fonte maior*/
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6;
+}
+footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+}
+.main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+.text{
+    margin-bottom: 10%;
+}
+.projetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 1.8em;
+    margin-left: 1.8em;
+    cursor: pointer;
+    text-align: center;
+    
+    transition: box-shadow 1.25 ease-in-out;
+}
+.card img{
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    vertical-align: middle;/*alinhar espaços verticais*/
+}
+.card:hover{
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+header h1{
+    font-size: 2.8em;
+    font-weight: 200;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+header h1, a{ 
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main figure img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+
+    margin-bottom: 20px;
+    border: 2px solid #00e0ff;
+    transition: 0,2s ease-in-out;
+}
+main figure img:hover{
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+
+

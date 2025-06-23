@@ -1,0 +1,183 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.topo {
+    background-color: #5900ff;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.topo nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topo nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.imagem img {
+ width: 100%;
+    height: 300px; /* Altura fixa */
+    object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  
+}
+
+.imagem p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: #1100ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* TOPO */
+.topo {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.topo nav ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.topo nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topo nav a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.galeria {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.galeria h2 {
+    margin-bottom: 30px;
+}
+
+/* GRADE DE VÍDEOS */
+.grid-videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .grid-videos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-videos {
+        grid-template-columns: 1fr;
+    }
+}
+body{
+    width: 100%;
+    height: 100vh;/*altura da janela de visualizaçao*/
+    background-color: #e9fffe;/*cor de fundo*/
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    background-color: #222;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: #222;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monteserrat;sans-serif";
+}
+
